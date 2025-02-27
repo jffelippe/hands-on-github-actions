@@ -1,0 +1,5 @@
+Crear y activar ambiente virtual: python -m virtualenv .env
+instalar dependencias: pip install - r requirements.txt
+(pruebas)
+Compilar dockerfile: docker build
+pushear a registry, a dockerhub: docker push
