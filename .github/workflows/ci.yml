@@ -31,6 +31,9 @@ jobs:
     - name: List files
       run: ls -Rl
 
+    - name: Install virtual environment
+      run: pip install virtualenv
+
     - name: Create and activate virtual environment
       run: python -m virtualenv .env
 
